@@ -1,12 +1,13 @@
 import React from "react";
 import login from  '../images/loginImage.jpg';
 import { NavLink } from "react-router-dom";
+import "./style.css"
 
 const Signup = () => {
   return (
     <>
-    <div className="row m-5 p-5 justify-content-end">
-      <div className="col-4">
+    <div className="row m-5 p-5 justify-content-center mainContainer">
+      <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <div className="form-floating mb-2">
           <input
             type="text"
@@ -18,17 +19,6 @@ const Signup = () => {
             <i className="zmdi zmdi-account material-icons-name"> FullName</i>
           </label>
         </div>
-        {/* <div className="form-floating mb-2">
-          <input
-            type="password"
-            name="password"
-            className="form-control"
-            id="floatingInput"
-          />
-          <label htmlFor="floatingInput">
-            <i className="zmdi zmdi-password material-icons-name"> Password</i>
-          </label>
-        </div> */}
         <div className="form-floating mb-2">
           <input
             type="email"
@@ -81,7 +71,7 @@ const Signup = () => {
         </div>
         <div className="form-floating mb-2">
           <input
-            type="cpassword"
+            type="password"
             name="cpassword"
             className="form-control"
             id="floatingInput"
@@ -93,17 +83,17 @@ const Signup = () => {
             </i>
           </label>
         </div>
-        <div className="col-12">
-          <button type="submit" class="btn btn-primary">
+        <div className="col-12 mb-3 ">
+          <button type="submit" class="btn btn-primary justify-content-center bg-black mt-2">
             Sign Up
           </button>
         </div>
       </div>
-      <div className="col-6">
+      <div className="col-lg-4 col-md-6 col-sm-9 col-xs-9">
         <figure>
-          <img style={{ height: "400px"}} src={login} alt="login" />
+          <img className="signupImage" src={login} alt="login" />
         </figure>
-        <NavLink to='/login'>I've already Registered.</NavLink>
+        <NavLink to='/login' style={{color:"black"}}>I am already Registered</NavLink>
       </div>
       </div>
     </>

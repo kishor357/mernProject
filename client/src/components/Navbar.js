@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-2">
         <NavLink className="navbar-brand" to="#">
-          Navbar
+          MyAPP
         </NavLink>
         <button
           className="navbar-toggler"

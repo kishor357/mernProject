@@ -1,0 +1,77 @@
+.signupImage{
+    height: 400px;
+}
+
+.contactUsImage1{
+    margin-left: auto !important;
+    padding-right: auto !important;
+}
+
+.contactUsContainer{
+    margin-left: 300px;
+}
+
+.loginImage{
+    width: 420px;
+    height: 200px;
+}
+
+.contactUsImage{
+    /* margin-left: 550px; */
+    margin-top: 25px;
+}
+
+.contactUsColCD{
+    background-color: whitesmoke;
+    border: 2px solid white;
+    padding-top: 15px;
+}
+
+.mainLoginContainer{
+    height: 200px;
+}
+.messageInput{
+    height: 100px !important;
+}
+.contactUsImage{
+    height: 300px !important;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .mainContainer{
+        padding: 10px !important;
+        /* margin: 10px !important; */
+    }
+    .mainLoginContainer{
+        padding: 10px !important;
+        /* margin: 10px !important; */
+    }
+
+    .mainLoginContainer{
+        padding-top: 100px !important;
+    }
+    body {
+      background-color: lightgreen;
+    }
+    .signupImage{
+        height: 100px;
+        width: 280px;
+    }
+    .contactUsImage{
+        height: 150px !important;
+        width: 280px;
+        margin-left: 50px !important;
+        margin-top: 25px;
+    }
+    .loginImage{
+        height: 100px;
+        width: 280px;
+    }
+    .contactUsContainer{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+
+    }
+  }
