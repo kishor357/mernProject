@@ -6,18 +6,18 @@ const Contact = () => {
   return (
     <>
       <div className="container  p-5 d-flex justify-content-center">
-        <div className="row ">
-          <div className="col-lg-4 col-xs-6 contactUsColCD">
+        <div className="row rowSecond d-flex justify-content-center">
+          <div className="col-lg-6 col-xs-6 contactUsColCD">
             <p>
               <b>Phone</b>: 842714421
             </p>
           </div>
-          <div className="col-lg-4 col-xs-6 contactUsColCD">
+          <div className="col-lg-6 col-xs-6 contactUsColCD">
             <p>
               <b>Email</b>: das358kishor@gmail.com
             </p>
           </div>
-          <div className="col-lg-4 col-xs-6 contactUsColCD">
+          <div className="col-lg-6 col-xs-6 contactUsColCD">
             <p>
               <b>Address</b>: Krishna Nagar, East Delhi
             </p>

@@ -1,77 +1,124 @@
-.signupImage{
-    height: 400px;
+.signupImage {
+  height: 400px;
 }
 
-.contactUsImage1{
-    margin-left: auto !important;
-    padding-right: auto !important;
+.contactUsImage1 {
+  margin-left: auto !important;
+  padding-right: auto !important;
 }
 
-.contactUsContainer{
-    margin-left: 300px;
+.contactUsContainer {
+  margin-left: 300px;
 }
 
-.loginImage{
-    width: 420px;
-    height: 200px;
+.loginImage {
+  width: 420px;
+  height: 200px;
 }
 
-.contactUsImage{
-    /* margin-left: 550px; */
-    margin-top: 25px;
+/* .contactUsImage {
+  margin-left: 550px;
+  margin-top: 25px;
+} */
+
+.contactUsColCD {
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding-top: 15px;
 }
 
-.contactUsColCD{
-    background-color: whitesmoke;
-    border: 2px solid white;
-    padding-top: 15px;
+.mainLoginContainer {
+  height: 200px;
 }
-
-.mainLoginContainer{
-    height: 200px;
+.messageInput {
+  height: 100px !important;
 }
-.messageInput{
-    height: 100px !important;
+.contactUsImage {
+  height: 300px !important;
 }
-.contactUsImage{
-    height: 300px !important;
-}
-
 
 @media screen and (max-width: 768px) {
-
-    .mainContainer{
-        padding: 10px !important;
-        /* margin: 10px !important; */
-    }
-    .mainLoginContainer{
-        padding: 10px !important;
-        /* margin: 10px !important; */
-    }
-
-    .mainLoginContainer{
-        padding-top: 100px !important;
-    }
-    body {
-      background-color: lightgreen;
-    }
-    .signupImage{
-        height: 100px;
-        width: 280px;
-    }
-    .contactUsImage{
-        height: 150px !important;
-        width: 280px;
-        margin-left: 50px !important;
-        margin-top: 25px;
-    }
-    .loginImage{
-        height: 100px;
-        width: 280px;
-    }
-    .contactUsContainer{
-        margin-left: 5px !important;
-        margin-right: 5px !important;
-
-    }
+  .mainContainer {
+    padding: 10px !important;
+    /* margin: 10px !important; */
   }
+  .mainLoginContainer {
+    padding: 10px !important;
+    /* margin: 10px !important; */
+  }
+
+  .mainLoginContainer {
+    padding-top: 100px !important;
+  }
+  body {
+    background-color: lightgreen;
+  }
+  .signupImage {
+    height: 100px;
+    width: 280px;
+  }
+  .contactUsImage {
+    height: 150px !important;
+    width: 280px;
+    margin-left: 50px !important;
+    margin-top: 25px;
+  }
+  .loginImage {
+    height: 100px;
+    width: 280px;
+  }
+  .contactUsContainer {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+.rowSecond {
+  text-align: center !important;
+}
+
+.homeFirstCol {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+  color: rgb(167, 103, 26);
+}
+
+
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    box-sizing: 
+    border-box;
+}
+
+.minionImage{
+    margin-bottom: 10px;
+    border-radius: 60px;
+}
+
+.aboutUsCol{
+    /* border: 2px solid green; */
+    margin: 10px 20px;
+
+}
+
+.aboutUsCol1{
+    /* background-color: antiquewhite; */
+    padding: 30px;
+
+}
+
+.aboutDiv2{
+    font-size: 50px;
+}
+.aboutDiv3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(154, 187, 187);
+    /* width: 400px; */
+}

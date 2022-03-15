@@ -9,6 +9,7 @@ const User = require("../models/userSchema");
 router.post("/register", async (req, res) => {
   // console.log(req.body);
   const { name, email, phone, work, password, cpassword } = req.body;
+  console.log(req.body);
   if (!name || !email || !phone || !work || !password || !cpassword) {
     return res.status(422).json({ error: "Fill all data." });
   }
